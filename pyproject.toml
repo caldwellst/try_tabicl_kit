@@ -1,0 +1,13 @@
+[project]
+name = "try-tabicl"
+version = "0.1.0"
+description = "Minimal notebook to try TabICL on your own dataset."
+requires-python = ">=3.13"
+dependencies = [
+    "tabicl>=2.1.1",
+    "scikit-learn>=1.5",
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "s3fs>=2024.9",
+    "jupyterlab>=4.2",
+]
